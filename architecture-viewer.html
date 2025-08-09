@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern SaaS Platform Architecture</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .diagram-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .diagram-container img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .description {
+            margin-top: 20px;
+            color: #666;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Modern SaaS Platform Architecture</h1>
+        
+        <div class="diagram-container">
+            <img src="saas-architecture-diagram.png" alt="SaaS Platform Architecture Diagram" />
+        </div>
+        
+        <div class="description">
+            <p><strong>Architecture Overview:</strong> This diagram illustrates a comprehensive modern SaaS platform architecture designed for scalability, security, and developer experience. The architecture follows microservices patterns with event-driven communication, built on Kubernetes for orchestration.</p>
+            
+            <p><strong>Key Features:</strong></p>
+            <ul>
+                <li><strong>Database Agnostic:</strong> Uses abstraction layer supporting PostgreSQL, MongoDB, and Redis</li>
+                <li><strong>Domain Agnostic:</strong> Modular design with pluggable domain-specific services</li>
+                <li><strong>Cost Effective:</strong> Auto-scaling, spot instances, and operational efficiency</li>
+                <li><strong>Secure:</strong> OAuth 2.0/OIDC, encryption everywhere, zero-trust networking</li>
+                <li><strong>Developer Experience:</strong> Auto-generated SDKs, standardized workflows, comprehensive observability</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
